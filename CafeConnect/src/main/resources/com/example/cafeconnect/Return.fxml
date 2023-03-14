@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cafeconnect.HelloApplication">
    <children>
       <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -44,11 +44,8 @@
             <Font name="System Bold" size="30.0" />
          </font>
       </Label>
-      <ImageView fitHeight="31.0" fitWidth="47.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@image 11.png" />
-         </image>
-      </ImageView>
+      <Button id="BackCashier"  layoutX="11.0" layoutY="11.0" mnemonicParsing="false" onAction="#handleButtonAction" opacity="0.92" prefHeight="23.0" prefWidth="65.0" style="-fx-background-color: EEF1FF; -fx-background-radius: 30;" text="Back" />
+
       <Button layoutX="300.0" layoutY="332.0" mnemonicParsing="false"  opacity="0.92" prefHeight="31.0" prefWidth="76.0" style="-fx-background-color: EEF1FF; -fx-background-radius: 30;" text="Return All" />
    </children>
 </AnchorPane>
